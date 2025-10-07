@@ -1,0 +1,14 @@
+
+```{r}
+library(plumber)
+pr("bus_tracking_api.R") %>% pr_run(port = 8000)
+```
+
+
+
+---
+title: api.R
+author: Gurnoor
+date: '2025-03-31'
+
+---
